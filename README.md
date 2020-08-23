@@ -1,6 +1,6 @@
 # DevOTA IDE
 ## Developed by [Abel Akponine](https://github.com/abelakponine)
-#### [Preview Prototype](https://server.zuppy.ml/DevOTA/editor)
+#### [Preview Prototype](http://www.zuppy.ml:5000/)
 ### Technologies
 + React DOM
 + PHP

@@ -1,0 +1,128 @@
+body, #root {
+	height: 100%;
+}
+.bgColor {
+	background-image: linear-gradient(to right, #404040 -50%, #050535 220%, #404040 0%);
+	height: 100%;
+}
+.fullHeight {
+	height: 100%;
+}
+.header {
+	background: #313131;
+	display: flex;
+	min-height: 33px;
+	padding: 10px 1% !important;
+}
+.explorer {
+	background-image: linear-gradient(to right, #404040 -50%, #332e48 220%, #404040 0%);
+	min-width: 200px;
+}
+.editor {
+	font-size: 14px;
+	padding: 0 0 0 40px !important;
+}
+.line-number {
+	left: 0;
+    width: 40px;
+    height: 100%;
+    background: #2b2b2b66;
+    color: #ffffff87;
+}
+.editor .writer {
+	background: #313038;
+	width: calc(100% - 24px);
+	padding: 8px 12px;
+	font-family: monospace;
+	color: white;
+	line-height: 1.2;
+	word-spacing: -2px;
+	border: 2px solid #90734f47;
+	outline: none;
+	white-space: pre;
+}
+.dictionary {
+	background: #6b6b6b;
+	width: 100px;
+	height: 22px;
+	padding: 2px 8px;
+	border: 0;
+	border-radius: 10px;
+	outline: none;
+	color: white;
+}
+header .nav {
+	background: none;
+	display: inline-table;
+	width: max-content;
+	padding: 0 8px;
+	margin: 0 !important;
+	position: relative;
+}
+header .nav ol {
+    display: none;
+    width: max-content;
+    padding: 6px 16px;
+    position: absolute;
+    margin-top: 10px;
+}
+header .nav > li {
+    display: block;
+    background: #4c4c4c;
+    padding: 2px 4px;
+    border-radius: 6px;
+}
+header .nav > li:hover {
+	header .nav ol {
+	    display: block;
+	}
+}
+header .nav > ol > li {
+    padding: 4px 0;
+}
+header li {
+	cursor: pointer;
+	font-size: 13px;
+}
+header .nav ol li {
+	list-style-type: circle;
+	list-style-position: inside;
+}
+.container {
+    width: calc(100% - 20px - 2%);
+    height: calc(100% - 20px);
+    padding: 20px 10px 0 10px;
+    top: 0;
+    overflow: auto;
+    position: absolute;
+}
+.explorer details {
+	outline: none;
+	cursor: pointer;
+	color: #c3759d;
+	line-height: 1.4;
+}
+.explorer details summary {
+	font-weight: bold;
+	font-size: 14px;
+	outline: none;
+}
+.explorer details ul {
+	margin: 4px;
+	cursor: default;
+}
+.label {
+    display: inline-table !important;
+    margin: 2px 6px;
+    color: #0d85ec;
+    background: #2b2b2b;
+    border-radius: 14px;
+    padding: 4px 10px;
+}
+details li:hover,details li:focus,details li:active,details li.active {
+	background: #4c4a4a2b;
+	color: #ffb546;
+}
+.toolbox {
+	min-width: 300px;
+}
